@@ -1,0 +1,49 @@
+.password {
+  width: inherit;
+  height: 43px;
+  font-family: Futura;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  color: #000000;
+  text-align: center;
+  display: block;
+  padding-bottom: 100px;
+}
+.password-field {
+  background-color: #efefef;
+  border: none;
+  width: 558px;
+  height: 62px;
+  display: inline-block;
+}
+.password-field:focus {
+  box-shadow: none;
+  border: 1px solid #dddddd;
+}
+.align-center {
+  text-align: center;
+}
+.password-button {
+  width: 130px;
+  border: none;
+  background-color: #67cbe1;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.password-button:hover {
+  border: 2px solid #67cbe1;
+  background-color: #ffffff;
+  color: #67cbe1 ;
+}
+@media (max-width: 767px) {
+  #password-field {
+    width: 100%;
+  }
+  .password-button {
+    height: 62px;
+  }
+}

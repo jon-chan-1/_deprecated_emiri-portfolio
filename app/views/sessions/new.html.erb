@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Emiri Chan's Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-sm sticky-top">
+            <span class="navbar-brand">Emiri Chan</span>
+          </nav>
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-12">
+          <%= form_for(:session, url: enter_path, html: {class: "align-center"}) do |f| %>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <%= f.label :password, "password", class: "password" %>
+              <div class="input-group">
+                <%= f.password_field :password, class: 'form-control password-field', id: "password-field" %>
+                <div class="input-group-append">
+                  <%= f.submit "enter", class: "btn btn-primary password-button" %>
+                </div>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <% provide(:title, "Log in") %>
+<h1>Log in</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(:session, url: enter_path) do |f| %>
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+      <%= f.submit "Enter", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div> -->

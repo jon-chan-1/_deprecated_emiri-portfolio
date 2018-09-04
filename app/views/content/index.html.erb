@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Emiri Chan's Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand" href="/">emiri chan</a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"/>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="/">work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1">resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row top-buffer bottom-buffer">
+              <div class="col-5 text-right">
+                <h1>ux/ui designer</h1>
+              </div>
+              <div class="col-7">
+                <h2 class="italic">
+                  <span>based in new york city</span><br>
+                  <span>mobile, web, and software designer</span><br>
+                  <span>dislikes olives</span>
+                </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <%= link_to image_tag("/assets/Therapists_main.png", {class: "img-fluid img-case-study"} ), massage_path %>
+              </div>
+              <div class="col-5 case-study-preview">
+                <h2 class="clear-top-buffer">spa reviews</h2>
+                <span>web experience for Spa directors to review therapists that come to their spa</span>
+              </div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <%= link_to image_tag("/assets/biovirtua.png", {class: "img-fluid img-case-study"} ), biovirtua_path %>
+              </div>
+              <div class="col-5 case-study-preview">
+                <h2 class="clear-top-buffer">patient movement tracking</h2>
+                <span>physician software that is able to measure and track patients with movement disorders</span>
+              </div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <%= link_to image_tag("/assets/pedalpalphone.png", {class: "img-fluid img-case-study"} ), pedalpal_path %>
+              </div>
+              <div class="col-5 case-study-preview">
+                <h2 class="clear-top-buffer">pedalpal</h2>
+                <span>mobile app for cyclists who want to report road hazards</span>
+              </div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <%= link_to image_tag("/assets/balloon.png", {class: "img-fluid img-case-study"} ), epic_path %>
+              </div>
+              <div class="col-5 case-study-preview">
+                <h2 class="clear-top-buffer">door to balloon time</h2>
+                <span>workflow for hospital staff treating patients with heart attacks</span>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-dark" id="top-button" title="Go to top">top</button>
+  </body>
+  <script>
+    $(document).ready(function(){
+      // hide #back-top first
+      $("#top-button").hide();
+      // fade in #back-top
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $('#top-button').fadeIn();
+          } else {
+            $('#top-button').fadeOut();
+          }
+        });
+        // scroll body to 0px on click
+        $('#top-button').click(function () {
+          $('body,html').animate({
+            scrollTop: 0
+          }, 800);
+          return false;
+        });
+      });
+    });
+  </script>
+</html>

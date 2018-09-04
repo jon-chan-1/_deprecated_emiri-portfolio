@@ -1,0 +1,179 @@
+// Place all the styles related to the content controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar{
+  background-color: #ffffff;
+}
+.navbar .navbar-brand{
+  color: #3CA4BA;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #222222;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #3CA4BA;
+}
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.top-buffer {
+  padding-top: 100px;
+}
+.bottom-buffer {
+  padding-bottom: 60px;
+}
+.img-case-study {
+  // border:1px solid #dddddd;
+  transition: .5s ease;
+}
+.case-study-preview {
+  padding-top: 10px;
+}
+.img-case-study:hover {
+  opacity: 0.3;
+}
+.clear-top-buffer {
+  padding-top: 0px;
+}
+.clear-bottom-buffer{
+  padding-bottom: 0px;
+}
+.top-buffer-10 {
+  padding-top: 10px;
+}
+.bottom-buffer-10 {
+  padding-bottom: 10px;
+}
+.top-buffer-20 {
+  padding-top: 20px;
+}
+.bottom-buffer-20 {
+  padding-bottom: 20px;
+}
+.top-buffer-40 {
+  padding-top: 40px;
+}
+.bottom-buffer-40 {
+  padding-bottom: 40px;
+}
+.mobile-row {
+  visibility: hidden;
+  height: 0px;
+}
+@media (max-width: 767px) {
+  .mobile-row {
+    visibility: visible;
+  }
+  .desktop-row {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+h1 {
+  font-family: "Futura-Book";
+  font-size: 24px;
+  font-weight: Normal;
+  letter-spacing: 1px;
+  line-height: 50px;
+  color: #515151;
+}
+h1.italic, .h1.italic {
+  font-family: "Futura-Book-Italic";
+  font-style: italic;
+  font-size: 24px;
+  color: #515151;
+}
+h2, .h2 {
+  font-family: "Futura-Book";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 50px;
+  color: #515151;
+}
+h2.italic, .h2.italic {
+  font-style: italic;
+  color: #515151;
+}
+h3, .h3 {
+  font-family: "Optima";
+  font-size: 24px;
+  color: #515151;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+h4, .h4 {
+  font-family: "Futura-Book-Medium";
+  font-size: 16px;
+}
+body {
+  font-family: "Futura-Book";
+  font-size: 16px;
+  color: #515151;
+}
+div {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+p {
+  margin-bottom: 0px;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    /* transition */
+    animation: all 1s;
+    -moz-animation: all 1s; /* Firefox */
+    -webkit-animation: all 1s; /* Safari and Chrome */
+    -o-animation: all 1s; /* Opera */
+}
+#next-button {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+}

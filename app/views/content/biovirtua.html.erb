@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bio Virtua Software Design</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand" href="/">emiri chan</a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"/>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="/">work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1">resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row justify-content-center bottom-buffer-10">
+              <h2>software design</h2>
+            </div>
+            <div class="row justify-content-center top-buffer-10">
+              <h1>bio virtua</h1>
+            </div>
+            <div class="row justify-content-center clear-top-buffer">
+              <div class="col-5">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <%= image_tag("/assets/biovirtua/TypeMRN.png", {class: "d-block w-100", alt: "First slide"} ) %>
+                    </div>
+                    <div class="carousel-item">
+                      <%= image_tag("/assets/biovirtua/backframeexpanded.png", {class: "d-block w-100", alt: "Second slide"} ) %>
+                    </div>
+                    <div class="carousel-item">
+                      <%= image_tag("/assets/biovirtua/addupperextremity.png", {class: "d-block w-100", alt: "Third slide"} ) %>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3">
+                <ul>
+                  <li>created user flow and interface for telehealth startup</li>
+                  <li>conducted UX interviews with neurologists, clinicians</li>
+                  <li>mapped neurologist's user journey to identify possible interactions for telehealth</li>
+                  <li>designed interfaces for web interface using sketch</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row justify-content-center top-buffer-20">
+              <div class="col-sm-8">
+                <h3>My Role</h3>
+                <p>
+                  I joined Biovirtua, a startup focused on delivering telehealth care through augmented reality. After talking to the CEO and some of their founders, I was excited to work with them. They focused on steady progress with measurable outcomes instead of complete disruption in the field — a smart move in a field marred with regulation. Coming from a background as a project manager in cardiology software documentation, I brought my expertise of working with physicians and experience with watching them interact with technology in their clinical workflows.
+                  <br>
+                  <br>
+                  I started as a product management associate. As I developed more of the product, I became the product management lead. I am responsible for determining the direction of product development, conducting user experience research, developing the design of the interfaces, and ensuring that both the UI/UX and R&amp;D are hitting research and development milestones.
+                </p>
+                <h3>Goals</h3>
+                <p>Create a movement analysis dashboard for clinicians to record patient movement and review analysis.</p>
+                <h3>Discovery</h3>
+                <p>
+                  I first needed to gain an understanding of the whole neurology clinical workflow, not just as it pertains to telehealth. I reached out to different neurologists to understand:
+                  <br>
+                  <br>
+                </p>
+                <ol>
+                  <li>How do they interact with patients?</li>
+                  <li>What information do they need to look up in the patient’s chart?</li>
+                  <li> How do they interact with their electronic health record, or other equipment?</li>
+                  <li>What are some of the pain-points that exist within their current workflow?</li>
+                </ol>
+                <p>I targeted some physicians for in-depth interviews about their day to day workflows while I slowly mapped out a basic neurology workflow.</p>
+                <%= image_tag("/assets/biovirtua/workflow.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <p>After extensive talks with the other members of the team, we found that we wanted to focus on one neurology expertise in particular — stroke patients. We wanted to look at how stroke patients received inpatient, outpatient care, and post acute care, and how Biovirtua could fit within the existing workflow.</p>
+                <h3>Design</h3>
+                <h4>Low Fidelity Prototype</h4>
+                <p>I started with creating a basic user flow for a physician’s followup visit for a stroke patient, and included areas where Biovirtua could be present. I made sure to incorporate how other healthcare technologies would remain in their workflows as part of the user flow. I got feedback from the user flows from one of the members of our team who is a neurology resident.</p>
+                <%= image_tag("/assets/biovirtua/wireframe1.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <p>I created low fidelity mockups. I broke down the basic components of each of the different frames and considered options for how physicians can filter the information presented in the interfaces. I needed to understand not just what they would be doing in BioVirtua, but what other technology were they using at the same time. This was important to understand potential interfaces between different systems, which could reduce manual typing for the clinicians.</p>
+                <%= image_tag("/assets/biovirtua/wireframe2.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <h4>Medium Fidelity Mockups</h4>
+                <p>
+                  I started to create medium fidelity mock ups. We had the pleasure of working with some UX interns from the GrowthX Academy who further created new wireframes for movement recording and analysis.
+                  <br>
+                  <br>
+                  After they created these wireframes, I did a heuristic evaluation and provided feedback to the interns. I focused specifically to capture the nuances of how clinicians could use their specific tools, because different types of clinicians would be interacting with the software in different ways. I also made sure that the patient name and identifiers were clearly visible for busy physicians who may be juggling multiple patients.
+                </p>
+                <%= image_tag("/assets/biovirtua/interns.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <p>An example of the intern's wireframes</p>
+                <%= image_tag("/assets/biovirtua/heuristic.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <h4> High Fidelity Prototype </h4>
+                <p>Based on the heuristic evaluation, my past sketches, and the intern's wireframes, I created a high fidelity prototype. After I made my screens, I created interactions using InVision, so we could quickly send them to clinicians to get feedback. While working on this prototype, I had frequent touchbases with the R&amp;D team to determine what is technologically feasible, and what could be features in the future.</p>
+                <%= image_tag("/assets/biovirtua/record.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag("/assets/biovirtua/review.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag("/assets/biovirtua/assess.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <h4>Testing and future work</h4>
+                <p> After creating these prototypes, we sent them to clinicians to get feedback and to make changes. We have several pilot testing sessions in the bay area, and the clinicians are eager to give feedback. BioVirtua is also reaching out to clinicians who are in the research field to see how their userflows may different from family practices. As we gather feedback, I've worked closely with R&amp;D to make these changes in our working prototype.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
