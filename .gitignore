@@ -1,0 +1,6 @@
+
+.DS_Store
+log/development.log
+*.log
+*.cache
+*.pid
