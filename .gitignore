@@ -4,3 +4,8 @@ log/development.log
 *.log
 *.cache
 *.pid
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
