@@ -3613,3 +3613,10 @@ Processing by ContentController#massage as HTML
 Completed 200 OK in 419ms (Views: 280.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:34:26 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1105ms (Views: 903.7ms)
+
+
