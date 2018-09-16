@@ -177,11 +177,11 @@ p {
     z-index: 99; /* Make sure it does not overlap */
     cursor: pointer; /* Add a mouse pointer on hover */
 }
-// @media (max-width: 1200px) {
-//   #location-scroller {
-//     visibility: hidden;
-//   }
-// }
+@media (max-width: 1200px) {
+  #location-scroller {
+    visibility: hidden;
+  }
+}
 #location-scroller svg {
   width: 16px;
   overflow: visible;

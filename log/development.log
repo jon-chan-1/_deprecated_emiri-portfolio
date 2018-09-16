@@ -8106,3 +8106,17 @@ Processing by ContentController#index as HTML
 Completed 200 OK in 48ms (Views: 46.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-09-16 03:24:18 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 764ms (Views: 618.7ms)
+
+
+Started GET "/massage" for 127.0.0.1 at 2018-09-16 03:24:20 -0400
+Processing by ContentController#massage as HTML
+  Rendering content/massage.html.erb within layouts/application
+  Rendered content/massage.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 86ms (Views: 82.8ms)
+
+
