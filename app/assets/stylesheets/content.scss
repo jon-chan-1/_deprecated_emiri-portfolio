@@ -177,3 +177,40 @@ p {
     z-index: 99; /* Make sure it does not overlap */
     cursor: pointer; /* Add a mouse pointer on hover */
 }
+// @media (max-width: 1200px) {
+//   #location-scroller {
+//     visibility: hidden;
+//   }
+// }
+#location-scroller svg {
+  width: 16px;
+  overflow: visible;
+}
+#location-scroller {
+  position: fixed;
+  top: 175px;
+}
+#location-line {
+  stroke: #979797;
+  stroke-width: 1px;
+}
+.location-text {
+  position: fixed;
+  margin-left: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.location-circle {
+  position: fixed;
+  r: 3;
+  fill: #d8d8d8;
+}
+#location-marker {
+  position: fixed;
+  stroke: #3CA4BA;
+  stroke-width: 1px;
+  fill: #3CA4BA;
+}
+.dummy-circle {
+  visibility: hidden;
+}

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
-  <body>
+  <body class="case-study">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -34,9 +34,19 @@
               <h1>pedalpal</h1>
             </div>
             <div class="row justify-content-center clear-top-buffer">
+              <div class="col-2">
+                <g id="location-scroller">
+                  <svg xmlns="http://www.w3.org/2000/svg">
+                    <line id="location-line" x1="8" x2="8" y1="0"/>
+                    <circle r="4" id="location-marker" cx="8" cy="0"/>
+                    <circle r="5" class="dummy-circle" cx="8"/>
+                  </svg>
+                </g>
+              </div>
               <div class="col-5">
                 <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/pedalpalhome.png", { class: "img-fluid" } ) %>
               </div>
+              <div class="col-2"></div>
               <div class="col-3">
                 <ul>
                   <li>designed mobile app for biking that would navigate students around campus</li>
