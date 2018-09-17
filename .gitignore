@@ -11,3 +11,5 @@ log/development.log
 !.elasticbeanstalk/*.global.yml
 *.log
 *.log
+log/development.log
+log/development.log

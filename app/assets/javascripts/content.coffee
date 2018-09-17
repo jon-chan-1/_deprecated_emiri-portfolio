@@ -23,9 +23,9 @@ color_in_circles = (indexes, index_at) ->
       $("#c"+i).css("fill", "#3CA4BA")
     else
       $("#c"+i).css("fill", "#d8d8d8")
+  return
 
-# $(document).on "turbolinks:load", ->
-$(document).ready ->
+$(window).on "load", ->
   if !$("body").is(".case-study")
     return
   h3_elements = $("h3")
@@ -39,7 +39,6 @@ $(document).ready ->
     $("#location-scroller").append(span_maker(h3_elements[i].innerHTML, i))
     document.querySelector("#location-scroller > svg").append(circle_maker(i))
   color_in_circles(h3_indexes, 0)
-
   h3_positions = []
   for h3 in h3_elements
     h3_positions.push($(h3).offset().top)

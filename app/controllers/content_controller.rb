@@ -17,4 +17,7 @@ class ContentController < ApplicationController
 
   def massage
   end
+
+  def rebranding
+  end
 end

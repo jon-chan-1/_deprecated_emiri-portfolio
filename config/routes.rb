@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/biovirtua', to: 'content#biovirtua'
   get '/epic', to: 'content#epic'
   get '/massage', to: 'content#massage'
+  get '/rebranding', to: 'content#rebranding'
   root 'content#index'
 end
