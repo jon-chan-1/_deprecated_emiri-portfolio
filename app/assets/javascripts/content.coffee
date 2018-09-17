@@ -26,6 +26,7 @@ color_in_circles = (indexes, index_at) ->
   return
 
 $(window).on "load", ->
+  $("body").addClass("load")
   if !$("body").is(".case-study")
     return
   h3_elements = $("h3")
