@@ -8910,3 +8910,135 @@ Processing by ContentController#rebranding as HTML
 Completed 200 OK in 66ms (Views: 63.2ms)
 
 
+Started GET "/rebranding" for 127.0.0.1 at 2018-09-17 19:44:58 -0400
+Processing by ContentController#rebranding as HTML
+  Rendering content/rebranding.html.erb within layouts/application
+  Rendered content/rebranding.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 984ms (Views: 783.0ms)
+
+
+Started GET "/favicon-32x32.png" for 127.0.0.1 at 2018-09-17 19:45:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon-32x32.png"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon-16x16.png" for 127.0.0.1 at 2018-09-17 19:45:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon-16x16.png"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:02 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 70ms (Views: 67.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:03 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 67ms (Views: 64.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:33 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 64ms (Views: 58.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:34 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 47.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:40 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 493ms (Views: 347.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:42 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 101ms (Views: 97.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:45:42 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 99ms (Views: 95.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:47:46 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 400ms (Views: 397.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-17 19:47:53 -0400
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 47.6ms)
+
+
