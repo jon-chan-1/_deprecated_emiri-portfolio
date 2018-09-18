@@ -3,13 +3,13 @@
 @import "sessions";
 @font-face {
   font-family: "Futura-Book";
-  src: url(https://s3.amazonaws.com/emiriaoki/assets/fonts/futura/Futura_Book_font.ttf);
+  src: url(asset_path("futura/Futura_Book_font.ttf"));
 }
 @font-face {
   font-family: "Futura-Book-Italic";
-  src: url(https://s3.amazonaws.com/emiriaoki/assets/fonts/futura/Futura_Book_Italic_font.ttf);
+  src: url(asset_path("futura/Futura_Book_Italic_font.ttf"));
 }
 @font-face {
   font-family: "Futura-Book-Medium";
-  src: url(https://s3.amazonaws.com/emiriaoki/assets/fonts/futura/futura_medium_bt.ttf);
+  src: url(asset_path("futura/futura_medium_bt.ttf"));
 }
