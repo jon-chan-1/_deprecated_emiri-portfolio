@@ -74,3 +74,7 @@ $(window).on "load", ->
     index = id.slice(id.indexOf("-",13)+1)
     destination = h3_positions[index] - 50
     $('body,html').animate({ scrollTop: destination+1 }, 800)
+
+  $("img").click ->
+    $(".enlargeImageModalSource").attr("src", $(this).attr("src"))
+    $("#enlargeImageModal").modal("show")

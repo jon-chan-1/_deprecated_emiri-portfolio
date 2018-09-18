@@ -44,7 +44,7 @@
                 </g>
               </div>
               <div class="col-5">
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/pedalpalhome.png", { class: "img-fluid" } ) %>
+                <%= image_tag(asset_path("pedalpal/pedalpalhome.png"), { class: "img-fluid" } ) %>
               </div>
               <div class="col-3">
                 <ul>
@@ -75,7 +75,7 @@
                 </ul>
                 <h3>Personas</h3>
                 <p>After gathering interview responses, we developed an affinity diagram that took points from our interviewee's responses and separated them into different categories, like where they ride, why they ride, support they receive in accidents, and benefits from riding. Based on the diagram, we created a persona. I created a narrative and story about a students background and her life:</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/persona.png", { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
+                <%= image_tag(asset_path("pedalpal/persona.png"), { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
                 <h3>Requirements</h3>
                 <p>After interviewing students, we created requirements for the application. The requirements were to:<br><br></p>
                 <ul>
@@ -86,13 +86,13 @@
                 </ul>
                 <h3>Storyboarding</h3>
                 <p>We developed storyboards that drew how a user may interact with our app. Below is my storyboard:</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/storyboard.jpg", { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
+                <%= image_tag(asset_path("pedalpal/storyboard.jpg"), { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
                 <h3>Heuristic Evaluation </h3>
                 <p> After creating medium fidelity mockups, we did a heuristic evaluation where we found problems in the design. I created heuristic evaluations and developed solutions to incorporate into our high fidelity app.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/heuristic.png", { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
+                <%= image_tag(asset_path("pedalpal/heuristic.png"), { class: "img-fluid top-buffer-40 bottom-buffer-20" } ) %>
                 <h3>Design </h3>
                 <p>I designed the homepage, friends list, and importing contacts screen for the high fidelity mock ups. We incorporated them into InVision.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/pedalpal/samplescreens.png", { class: "img-fluid" } ) %>
+                <%= image_tag(asset_path("pedalpal/samplescreens.png"), { class: "img-fluid" } ) %>
                 <p>
                   I liked being able to part of the whole design process, from start to finish. It was a semester project, so next time, I would like to have more time to gather more user testing after we created the high fidelity prototype. I had a great team though, and everyone's enthusiasm and diligence throughout made this project really enjoyable.
                   <br>
@@ -104,6 +104,18 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+       <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+           </div>
+           <div class="modal-body">
+             <img src="" class="enlargeImageModalSource" style="width: 100%;">
+           </div>
+         </div>
+       </div>
     </div>
   </body>
 </html>

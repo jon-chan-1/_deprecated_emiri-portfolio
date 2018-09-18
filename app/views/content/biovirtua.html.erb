@@ -47,13 +47,13 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/TypeMRN.png", {class: "d-block w-100", alt: "First slide"} ) %>
+                      <%= image_tag(asset_path("biovirtua/TypeMRN.png"), {class: "d-block w-100", alt: "First slide"} ) %>
                     </div>
                     <div class="carousel-item">
-                      <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/backframeexpanded.png", {class: "d-block w-100", alt: "Second slide"} ) %>
+                      <%= image_tag(asset_path("biovirtua/backframeexpanded.png"), {class: "d-block w-100", alt: "Second slide"} ) %>
                     </div>
                     <div class="carousel-item">
-                      <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/addupperextremity.png", {class: "d-block w-100", alt: "Third slide"} ) %>
+                      <%= image_tag(asset_path("biovirtua/addupperextremity.png"), {class: "d-block w-100", alt: "Third slide"} ) %>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -100,14 +100,14 @@
                   <li>What are some of the pain-points that exist within their current workflow?</li>
                 </ol>
                 <p>I targeted some physicians for in-depth interviews about their day to day workflows while I slowly mapped out a basic neurology workflow.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/workflow.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/workflow.jpg"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <p>After extensive talks with the other members of the team, we found that we wanted to focus on one neurology expertise in particular — stroke patients. We wanted to look at how stroke patients received inpatient, outpatient care, and post acute care, and how Biovirtua could fit within the existing workflow.</p>
                 <h3>Design</h3>
                 <h4>Low Fidelity Prototype</h4>
                 <p>I started with creating a basic user flow for a physician’s followup visit for a stroke patient, and included areas where Biovirtua could be present. I made sure to incorporate how other healthcare technologies would remain in their workflows as part of the user flow. I got feedback from the user flows from one of the members of our team who is a neurology resident.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/wireframe1.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/wireframe1.jpg"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <p>I created low fidelity mockups. I broke down the basic components of each of the different frames and considered options for how physicians can filter the information presented in the interfaces. I needed to understand not just what they would be doing in BioVirtua, but what other technology were they using at the same time. This was important to understand potential interfaces between different systems, which could reduce manual typing for the clinicians.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/wireframe2.jpg", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/wireframe2.jpg"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <h4>Medium Fidelity Mockups</h4>
                 <p>
                   I started to create medium fidelity mock ups. We had the pleasure of working with some UX interns from the GrowthX Academy who further created new wireframes for movement recording and analysis.
@@ -115,14 +115,14 @@
                   <br>
                   After they created these wireframes, I did a heuristic evaluation and provided feedback to the interns. I focused specifically to capture the nuances of how clinicians could use their specific tools, because different types of clinicians would be interacting with the software in different ways. I also made sure that the patient name and identifiers were clearly visible for busy physicians who may be juggling multiple patients.
                 </p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/interns.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/interns.png"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <p>An example of the intern's wireframes</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/heuristic.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/heuristic.png"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <h4> High Fidelity Prototype </h4>
                 <p>Based on the heuristic evaluation, my past sketches, and the intern's wireframes, I created a high fidelity prototype. After I made my screens, I created interactions using InVision, so we could quickly send them to clinicians to get feedback. While working on this prototype, I had frequent touchbases with the R&amp;D team to determine what is technologically feasible, and what could be features in the future.</p>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/record.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/review.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
-                <%= image_tag("https://s3.amazonaws.com/emiriaoki/assets/images/biovirtua/assess.png", {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/record.png"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/review.png"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
+                <%= image_tag(asset_path("biovirtua/assess.png"), {class: "img-fluid top-buffer-40 bottom-buffer-20"} ) %>
                 <h4>Testing and future work</h4>
                 <p> After creating these prototypes, we sent them to clinicians to get feedback and to make changes. We have several pilot testing sessions in the bay area, and the clinicians are eager to give feedback. BioVirtua is also reaching out to clinicians who are in the research field to see how their userflows may different from family practices. As we gather feedback, I've worked closely with R&amp;D to make these changes in our working prototype.</p>
               </div>
@@ -130,6 +130,18 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+       <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+           </div>
+           <div class="modal-body">
+             <img src="" class="enlargeImageModalSource" style="width: 100%;">
+           </div>
+         </div>
+       </div>
     </div>
   </body>
 </html>
