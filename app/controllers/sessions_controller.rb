@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  PASSWORD = "chocolate"
+  PASSWORD = "chocolateasdfhjkaskhjfkjsaf"
 
   def new
   end
